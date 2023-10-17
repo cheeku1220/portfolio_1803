@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    /* font-family:serif; */
+}
+div h1{
+    margin-left: 0;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    text-decoration: solid underline white;
+}
+a{
+    text-decoration: none;
+    margin:7px;
+}
+#myself{
+    font-size: large;
+}
+a img{
+    width:30px;
+    height:30px;
+    border:1px solid black;
+    border-radius: 20px;
+}
+#tech{
+    display: flex;
+    font-size: large;
+    /* justify-content: flex-start; */
+    /* flex-direction: column; */
+    background-color:aliceblue;
+}
+.asli{
+    display: flex;
+    background-color: aliceblue;
+}
+.asli div{
+    margin: 100px;
+    border:none;
+}
+.asli img{
+    width:150px;
+    height:150px;
+    margin:40px;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.navi{
+    display: flex;
+    position:sticky;
+    top:0;
+    justify-content: space-around;
+    height:40px;
+    background-color: blueviolet;
+    border:2px solid black;
+    border-radius: 20px;
+}
+.navi img:hover{
+    transform: scale(2);
+}
+div{
+    border:2px solid black;
+    border-radius:25px ;
+}
