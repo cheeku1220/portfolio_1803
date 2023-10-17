@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPort</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <link href="port.css" rel="stylesheet">
+    <script src="port.js"></script>
+</head>
+<body style="background-color:lightblue">
+    <h1>PORTFOLIO</h1>
+    <div class="navi">
+        <a href="#myself" onclick=dialog("myself")>About</a>
+        <a href="#tech" onclick=dialog('tech')>Tech Skills</a>
+        <a href="#pro" onclick=dialog('pro')>Projects</a>
+        <a href="#hob" onclick=dialog('hob')>Hobbies</a>
+        <a href="https://github.com/cheeku1220"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a>
+        <a href="https://www.linkedin.com/in/vss-pranav-sharma-b86554227/"><img src="https://static.vecteezy.com/system/resources/previews/012/660/862/non_2x/linkedin-logo-on-transparent-isolated-background-free-vector.jpg"></a>
+    </div>
+    <div class="asli" id="myself" onmouseleave="ret(id)" style="margin-top:20px">
+        <img src="/Users/sharma/Desktop/Screenshot 2023-10-16 at 9.08.24 PM.png">
+        <div style="margin-left:70px;margin-top:40px">
+            <pre>Name:  VSS Pranav Sharma</pre>
+            <pre>Registration Number:  122010331029</pre>
+            <pre>Program:  BTech </pre>
+            <pre>Domain: CSE</pre>
+            <pre>Year:  4</pre>
+            <pre>Contact:  6281329395</pre>
+        </div>
+    </div>
+    <div id="tech" style="margin-top:20px" onmouseleave="ret(id)">
+        <pre style="margin-top:10">     Technical Skills known:</pre>
+        <ul>
+            <!-- <pre> --><br>
+            <li>HTML</li><br>
+            <li>CSS</li><br>
+            <li>Intermediate JS</li><br>
+            <li>Bootstrap</li><br>
+            <li>Python</li><br>
+            <li>Java</li><br>
+            <li>AWS Data Analytics</li><br>
+            <li>Excel</li>
+            <!-- </pre> -->
+        </ul>
+    </div>
+    <div id="pro" style="background-color:aliceblue;margin-top:30px" onmouseleave="ret(id)">
+        <pre style="font-size:larger">     Projects:</pre>
+        <pre style="font-size:larger">
+               -> Designed an intriguing webpage for a timetable using HTML, CSS and basics of JS and deployed it in Github.
+               We can visit the webpage <a href="https://cheeku1220.github.io/latestsemsch/" style="color:red">here</a>
+        </pre>
+        <pre style="font-size:larger">
+               -> Designing a website for a social media website for connecting Alumni to the students of a campus by learning MERN stack.
+               We can visit the website <a href="https://cheeku1220.github.io/prophase1.o/" style="color:red">here</a>
+        </pre>
+    </div>
+    <div id="hob" style="background-color:aliceblue;margin-top: 30px;" onmouseleave="ret(id)">
+        <pre style="font-size:larger">     Hobbies and Interests:</pre>
+        <ul style="margin-left:260px;font-size:larger">
+            <li>Playing and watching cricket</li><br>
+            <li>Photography</li><br>
+            <li>Exploring nature</li><br>
+            <li>Exploring Tech and Non-tech inventions</li><br>
+        </ul>
+    </div>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+</body>
+</html>
