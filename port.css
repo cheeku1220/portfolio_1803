@@ -5,15 +5,16 @@ h1{
 div h1{
     margin-left: 0;
 }
+a{
+    color:white;
+    text-decoration: none;
+    margin:7px;
+}
 a:visited{
     color:white;
 }
 a:hover{
     text-decoration: solid underline white;
-}
-a{
-    text-decoration: none;
-    margin:7px;
 }
 #myself{
     font-size: large;
